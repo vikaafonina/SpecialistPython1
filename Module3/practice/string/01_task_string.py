@@ -8,3 +8,10 @@ surname = input("Фамилия: ")
 
 
 print(name, surname)
+name = input("Имя: ")
+surname = input("Фамилия: ")
+
+name = name.capitalize()
+surname = surname.capitalize()
+
+print(name, surname)
