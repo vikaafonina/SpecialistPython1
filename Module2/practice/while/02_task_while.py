@@ -3,3 +3,8 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+word = input("Любое значение: ")
+
+while word != "Хватит":
+    word = input("Любое значение: ")
+print("ОК")
