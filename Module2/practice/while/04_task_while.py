@@ -7,3 +7,11 @@
 # Формат выходных данных: Необходимо вывести сумму чисел написанных на кирпичах.
 
 # TODO: your code here
+floor = 1
+
+num_floors = int(input(":"))
+sum = 0
+while floor<= num_floors:
+    sum += floor * floor
+    floor += 1
+print("sum=", sum)
