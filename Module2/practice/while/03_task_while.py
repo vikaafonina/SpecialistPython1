@@ -10,3 +10,10 @@
 # 1234
 
 # TODO: your code here
+n = int(input())
+c = 1
+b = str()
+while c <= n:
+    b = str(b) + str(c)
+    print(b)
+    c += 1
